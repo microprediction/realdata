@@ -1,18 +1,11 @@
 # realdata
 A really simple way to grab univariate time series data that never gets stale.
 
-## Usage:
+## Install
 
-Not used. Instead:
-
-    pip install microprediction
+    pip install realdata
     
-Then 
+### Usage 
 
-    from microprediction import MicroReader
-    import random
-    mr = MicroReader()
-    NAMES = mr.get_stream_names()
-    name = random.choice(NAMES)
-    lagged = mr.get_lagged_values(name=name)
-    chronological = list(reversed(lagged))
+    from realdata import get_real
+    values = get_real()
