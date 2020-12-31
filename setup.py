@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="realdata",
-    version="0.0.1",
+    version="0.0.2",
     description="Get real time series data easily for testing",
     long_description=README,
     long_description_content_type="text/markdown",
