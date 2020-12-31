@@ -1,5 +1,6 @@
 # realdata
-A really simple way to grab univariate time series data that never gets stale.
+
+Tired of using fake data for testing time series? 
 
 ## Install
 
