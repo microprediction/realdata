@@ -5,6 +5,10 @@ A really simple way to grab univariate time series data that never gets stale
 
 Not used. Instead:
 
+    pip install microprediction
+    
+Then 
+
     from microprediction import MicroReader
     import random
     mr = MicroReader()
