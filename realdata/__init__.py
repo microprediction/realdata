@@ -14,7 +14,7 @@ def random_name():
     return random.choice(NAMES)
 
 
-def get_real(name:str=None)->[float]:
+def get_values(name:str=None)->[float]:
     """ Get a real world time series """
     mr = MicroReader()
     if name is None:
@@ -25,5 +25,5 @@ def get_real(name:str=None)->[float]:
 
 
 if __name__=='__main__':
-    values = get_real()
+    values = get_values()
     print(len(values))
