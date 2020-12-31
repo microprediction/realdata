@@ -1,5 +1,5 @@
 # realdata
-A really simple way to grab univariate time series data that never gets stale
+A really simple way to grab univariate time series data that never gets stale.
 
 ## Usage:
 
