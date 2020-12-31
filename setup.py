@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="realdata",
-    version="0.0.2",
+    version="0.0.3",
     description="Get real time series data easily for testing",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -24,7 +24,7 @@ setup(
     test_suite='pytest',
     tests_require=['pytest'],
     include_package_data=True,
-    install_requires=["microprediction", "numpy","wheel"],
+    install_requires=["microprediction"],
     entry_points={
         "console_scripts": [
             "pointy=pointy.__main__:main",
