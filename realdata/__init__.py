@@ -10,7 +10,7 @@ EXAMPLE_STREAMS = ['electricity-lbmp-nyiso-west.json','electricity-load-nyiso-ny
 def random_name():
     """ Choose a random name of a stream """
     mr = MicroReader()
-    names = [n for n in mr.get_stream_names() if not '~' in n ]
+    names = [n for n in mr.get_stream_names() if '~' not in n ]
     return random.choice(names)
 
 
