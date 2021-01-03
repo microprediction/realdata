@@ -13,4 +13,4 @@ Tired of using fake data for testing time series? This returns medium length (~1
     
 ### Too bare bones for you? 
 
-See https://www.microprediction.org/features.html for other ways to get this data
+See [other ways](https://www.microprediction.org/features.html) to grab the data directly, or see this short [tutorial](https://www.microprediction.com/python-3) on retrieving historical data using the microprediction package.  
