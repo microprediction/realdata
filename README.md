@@ -23,6 +23,6 @@ All sorts of things: traffic, electricity, emoji usage, hospital wait times, alt
 
 Streams are live so the next time you get data, it will be different. 
 
-### Can I add to the collection
+### Can I add to the collection?
 
-Yes if you have live data. See [tutorial](https://www.microprediction.com/python-4) on making a new stream of data. 
+Yes see the [tutorial](https://www.microprediction.com/python-4) on making a new stream of data. 
