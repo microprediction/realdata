@@ -1,6 +1,6 @@
 # realdata
 
-Tired of using fake data for testing time series, or historical data that you gradually overfit to? This returns medium length (~1-2000) univariate time series from real world instrumented processes. The data is live, so this never gets stale. 
+Tired of using fake data for testing time series, or historical data that you gradually overfit to? This returns "medium" length (~2000) univariate time series from real world instrumented processes. The data is live, so this never gets stale. 
 
 ## Install
 
