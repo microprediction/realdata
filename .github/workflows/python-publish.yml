@@ -28,7 +28,7 @@ jobs:
         pip install numpy
         pip install scipy
         pip install scikit-learn
-        pip install microprediction
+        pip install --upgrade microprediction
     - name: Build and publish
       env:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
