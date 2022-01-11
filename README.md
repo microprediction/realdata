@@ -1,19 +1,23 @@
 # realdata
 
-Tired of using fake data for testing time series, or historical data that you gradually overfit to? This returns "medium" length (~2000) univariate time series from real world instrumented processes. The data is live, so this never gets stale. 
 
 ## Install
 
     pip install realdata
     
-### Usage 
+### Random live data (around 1000 points) 
 
     from realdata import get_values
     values = get_values()
     
+### Random historical data (around 30,000 points for 20 variables)
+
+    from realdata import get_historical
+    df = get_historical()
+    
 ### Too bare bones for you? 
 
-See [other ways](https://www.microprediction.org/features.html) to grab the data directly, or see this short [tutorial](https://www.microprediction.com/python-3) on retrieving historical data using the microprediction package.  
+See [other ways](https://www.microprediction.org/features.html) to grab the live data directly, or see this short [tutorial](https://www.microprediction.com/python-3) on retrieving historical data using the microprediction package.  
 
 ### What's the data?
 
