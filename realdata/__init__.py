@@ -17,8 +17,8 @@ def random_name():
     return random.choice(names)
 
 
-def get_values(name:str=None)->[float]:
-    """ Get a real world time series """
+def get_live(name:str=None)->[float]:
+    """ Get a live univariate real world time series """
     mr = MicroReader()
     if name is None:
         name = random_name()
@@ -29,6 +29,7 @@ def get_values(name:str=None)->[float]:
 n_data = 450
 
 def get_historical(n_obs:int):
+    """ Dataframe with up to 30,000 x 20 variable values """
     assert n_obs<=30000, 'Too many requested. Try 30,000 or less.'
     got = False
     while not got:
