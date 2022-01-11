@@ -13,14 +13,16 @@ A mini-package for people who just want some real time-series data, any real dat
     
 ### Univariate live data (around 1000 points) 
 
-    from realdata import get_live
-    values = get_live()
+    from realdata import live
+    values = live()
     
 ### Multivariate historical data (around 30,000 points for 20 variables)
 
-    from realdata import get_historical
-    df = get_historical()
+    from realdata import historical
+    df = historical()
     
+    
+There are pseudonyms get_live and get_historicall for backward compat. 
 # Alternatives
 
 See [other ways](https://www.microprediction.org/features.html) to grab the live data directly, or see this short [tutorial](https://www.microprediction.com/python-3) on retrieving historical data using the microprediction package.  
