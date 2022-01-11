@@ -21,9 +21,11 @@ A mini-package for people who just want some real time-series data, any real dat
     from realdata import get_historical
     df = get_historical()
     
-### Too bare bones for you? 
+# Alternatives
 
 See [other ways](https://www.microprediction.org/features.html) to grab the live data directly, or see this short [tutorial](https://www.microprediction.com/python-3) on retrieving historical data using the microprediction package.  
+
+The historical data is from [precisedata](https://github.com/microprediction/precisedata). 
 
 ### What's the data?
 
