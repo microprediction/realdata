@@ -28,7 +28,7 @@ def get_live(name:str=None)->[float]:
 
 n_data = 450
 
-def get_historical(n_obs:int):
+def get_historical(n_obs:int=10000):
     """ Dataframe with up to 30,000 x 20 variable values """
     assert n_obs<=30000, 'Too many requested. Try 30,000 or less.'
     got = False
