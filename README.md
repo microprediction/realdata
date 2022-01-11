@@ -1,6 +1,6 @@
 # realdata
 
-A mini-repo for people who just want some real time-series data, any real data. 
+A mini-package for people who just want some real time-series data, any real data. 
 
 ## Install
 
