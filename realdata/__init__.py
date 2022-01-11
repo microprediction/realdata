@@ -28,7 +28,7 @@ def get_values(name:str=None)->[float]:
 
 n_data = 450
 
-def get_random_historical_data(n_obs:int):
+def get_historical(n_obs:int):
     assert n_obs<=30000, 'Too many requested. Try 30,000 or less.'
     got = False
     while not got:
