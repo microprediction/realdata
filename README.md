@@ -1,11 +1,11 @@
 # realdata
 
-A mini-package for people who just want some real time-series data, any real data. Think of this as the alternative to 
+A mini-package providing an alternative to:
 
      import np
      x = np.cumsum(np.random.randn(1000))
 
-
+if you need time-series data in under ten seconds. 
 
 ## Install
 
