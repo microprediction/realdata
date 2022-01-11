@@ -26,6 +26,8 @@ def get_live(name:str=None)->[float]:
     values = list(reversed(lagged))
     return values
 
+live = get_live 
+
 n_data = 450
 
 def get_historical(n_obs:int=10000):
@@ -43,3 +45,4 @@ def get_historical(n_obs:int=10000):
             got = False
     return df
 
+historical = get_historical
