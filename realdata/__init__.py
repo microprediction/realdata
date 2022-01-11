@@ -43,7 +43,3 @@ def get_historical(n_obs:int):
             got = False
     return df
 
-
-if __name__=='__main__':
-    values = get_values()
-    print(len(values))
