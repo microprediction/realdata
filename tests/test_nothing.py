@@ -1,8 +1,7 @@
-from realdata import get_random_historical_data
-from realdata import get_values
+from realdata import get_live, get_historical
 
 def test_live():
-    values = get_values()
+    values = get_live()
     
 def test_historical():
-    df = get_random_historical_data(n_obs=5000)
+    df = get_historical(n_obs=5000)
