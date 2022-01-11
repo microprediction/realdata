@@ -1,16 +1,17 @@
 # realdata
 
+A mini-repo for people who just want some real time-series data, any real data. 
 
 ## Install
 
     pip install realdata
     
-### Random live data (around 1000 points) 
+### Univariate live data (around 1000 points) 
 
-    from realdata import get_values
-    values = get_values()
+    from realdata import get_live
+    values = get_live()
     
-### Random historical data (around 30,000 points for 20 variables)
+### Multivariate historical data (around 30,000 points for 20 variables)
 
     from realdata import get_historical
     df = get_historical()
