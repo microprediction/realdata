@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="realdata",
-    version="0.1.0",
+    version="0.1.1",
     description="Get real univariate time series data easily for testing",
     long_description=README,
     long_description_content_type="text/markdown",
